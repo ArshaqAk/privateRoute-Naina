@@ -11,7 +11,7 @@ function App() {
     <>
     <Routes>
       <Route path='/' element={<Auth/>}/>
-      <Route path='/register' element={<Auth register/>}/>
+      <Route path='/register' element={<Auth registerPage/>}/>
       <Route path='/home' element={<PrivateRoute><Home/></PrivateRoute>}/>
     </Routes>
     </>
