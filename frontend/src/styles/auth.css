@@ -1,0 +1,32 @@
+.auth-container{
+    background-image: url(../assets/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    color: #fff;
+}
+.auth-row{
+    background-color: rgba(95, 158, 160, 0.747);
+    margin-top: 4rem;
+    border-radius: 15px;
+    min-height: 70vh;
+    padding: 3rem;
+}
+.right-div{
+    border-left: 1px solid rgb(238, 245, 248);
+}
+.input-div input{
+    background-color: transparent;
+    height: 3rem;
+    border: 1px solid rgba(233, 233, 233, 0.747) ;
+    border-radius: 1.5rem;
+}
+.input-div button{
+    border-radius: 1.5rem;
+
+}
+.input-div input:focus{
+    background-color: transparent;
+
+}

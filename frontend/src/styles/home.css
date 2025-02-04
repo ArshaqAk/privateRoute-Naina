@@ -1,0 +1,16 @@
+.home-container{
+    background-image: url(../assets/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+.home-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:36rem;
+}
+.text{
+    color:  rgb(12, 193, 199);
+}
