@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 const PrivateRoute=({children})=>{
     const navigate= useNavigate()
 
-    let isLogged= false;
+    let isLogged= true;
     if(isLogged){
         return children
     }

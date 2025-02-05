@@ -5,8 +5,7 @@ import {Link} from 'react-router-dom'
 const Auth = ({registerPage}) => {
   const [register,setRegister]=useState({username:'',email:'',password:''})
   const [login,setLogin]=useState({email:'',password:''})
-  console.log(register)
-  console.log(login)
+
   return (
     <div className='container-fluid auth-container'>
       <div className="row">
@@ -32,7 +31,7 @@ const Auth = ({registerPage}) => {
                       <button className='btn btn-outline-light  w-25 mt-3'>Register</button>
                   </div>
 
-                 <div className='d-flex mt-5 justify-content-center'><p>Already have an account?</p><Link className='ms-2' to={'/'}>Login </Link></div>
+                 <div className='d-flex mt-5 justify-content-center'><p>Already have an account?</p><Link  className='link ms-2' to={'/'}>Login </Link></div>
               </div>
           </div>
           :
@@ -51,7 +50,7 @@ const Auth = ({registerPage}) => {
                   <button className='btn btn-outline-light  w-25 mt-3'>Login</button>
               </div>
 
-             <div className='d-flex mt-5 justify-content-center'><p>New to project fair?</p><Link className='ms-2' to={'/register'}>Register Now</Link></div>
+             <div className='d-flex mt-5 justify-content-center'><p>New to project fair?</p><Link className='link ms-2' to={'/register'}>Register Now</Link></div>
           </div>
       </div>
             }
