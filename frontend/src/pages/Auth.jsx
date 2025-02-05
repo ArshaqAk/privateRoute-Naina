@@ -12,13 +12,13 @@ const Auth = ({register}) => {
             {
               register?
               <div className="row auth-row  ">
-              <div className="col-6 text-center">
+              <div className="col-lg-6 col-sm-12 text-center">
                   <img className='mt-3' style={{width:'70px'}} src="https://cdn-icons-png.flaticon.com/512/8435/8435627.png" alt="" />
                   <h5>PROJECT FAIR</h5>
                   <p className='mt-3'>Login her ipsum dolor sit amet consectetur adipidunt a tenetur fuga harum, inventore, iste aliquid dicta dolorem et? Minus, illum.
                   </p>
               </div>
-              <div className="col-6 right-div">
+              <div className="col-lg-6 col-sm-12 right-div">
                   <div className="input-div d-flex flex-column align-items-center pt-3">
                       <h3>REGISTER </h3>
                       <input placeholder=' username' className='mt-4 form-control' type="text" />
