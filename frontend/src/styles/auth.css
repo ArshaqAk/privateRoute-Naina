@@ -1,5 +1,6 @@
 .auth-container{
-    background-image: url(../assets/bg.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(../assets/bg.jpg);; 
+    
     background-size: cover;
     background-position: center;
     min-height: 100vh;
